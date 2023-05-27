@@ -1,0 +1,105 @@
+body{
+    background-image: url(./img/black.jpg);
+    background-size: cover;
+}
+.c1::placeholder{
+    color: white;
+}
+.c10{
+    width: 75%;
+}
+.c20{
+    width: 50%;
+}
+.c30{
+    font-family: Alkatra, sans-serif;
+}
+.c35{
+    font-family: Alkatra, sans-serif;
+}
+.c40{
+    font-family: Oleo Script, sans-serif;  
+    margin-top: -10px;  
+}
+.c50{
+    font-family: Dancing Script, sans-serif;   
+}
+.c2{
+    font-family: Oleo Script, sans-serif;  
+}
+.c6{
+    font-size: medium;
+}
+@media(max-width:850px){
+    .c6{
+        font-size: small;
+    }
+}
+
+@media(max-width:700px){
+    .c6{
+        font-size: xx-small;
+    }
+}
+@media(max-width:510px){
+    .c9{
+        display: none;
+    }
+    .c30{
+        font-family: Alkatra, sans-serif;
+        font-size: medium;
+    }
+    .c35{
+        font-family: Alkatra, sans-serif;
+        font-size: large;
+    }
+    .c1::placeholder{
+        color: white;
+        font-size: small;
+    }
+    .c20{
+        width: 70%;
+    }
+    .c40{
+        font-family: Oleo Script, sans-serif;  
+        margin-top: -10px; 
+        font-size: small; 
+    }
+    .c2{
+        font-family: Oleo Script, sans-serif; 
+        font-size: large; 
+    }
+}
+@media(max-width:350px){
+    .c9{
+        display: none;
+    }
+    .c7{
+        display: none;
+    }
+    .c30{
+        font-family: Alkatra, sans-serif;
+        font-size: medium;
+    }
+    .c1::placeholder{
+        color: white;
+        font-size: x-small;
+    }
+    .c20{
+        width: 90%;
+    }
+    .c40{
+        font-family: Oleo Script, sans-serif;  
+        margin-top: -10px; 
+        font-size: xx-small; 
+    }
+    .c2{
+        font-family: Oleo Script, sans-serif; 
+        font-size: medium; 
+    }
+    .c35{
+        font-family: Alkatra, sans-serif;
+        font-size: large;
+    }
+
+}
